@@ -29,8 +29,12 @@ Para poder utilizarlo tan sólo será necesario tener Excel y Python(3) instalad
    - En el desplegable de Tipo elegir la opción de: `CSV (delimitado por comas)`
    - El archivo debe llamarse `data.csv`
    - Guardar el archivo en una ruta (Preferiblemente en la raíz de este proyecto para no tener que cambiar nada del código)
-6) Ejecutar el programa con: `python sus.py`
-7) Se generará en la raíz del proyecto un archivo llamado `result.csv` el cual podremos abrir con **Excel**
+6) Revisar el archivo data.scv porque seguramente tenga **letras con acentos** que provoquen un fallo
+7) En caso de que hayan acentos hay que realizar los siguientes pasos:
+   - Seleccionar todos los **simbolos** (rombos con interrogante) y **eliminarlos** (En el resultado final habrá que poner manualmente las letras con acento que falten)
+   - **Si sólo esta con acento "Sin opinión"**. Entonces se pueden sustituir todos los iconos con `ó` el programa debería procesarlo bien ya que se controla este caso en específico.
+8) Ejecutar el programa con: `python sus.py`
+9)  Se generará en la raíz del proyecto un archivo llamado `result.csv` el cual podremos abrir con **Excel**
 
 El resultado en cuestión deberá tener el siguiente formato que nos permitirá copiar y pegar estas 10 columnas en sus correspondientes 10 columnas con total facilidad.
 
